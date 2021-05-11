@@ -1,3 +1,8 @@
+use crate::primes::get_primes;
+
+mod primes;
+
 fn main() {
-    println!("Hello, world!");
+    const MAX: u32 = 1_000_000;
+    get_primes(MAX);
 }
